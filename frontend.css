@@ -1,0 +1,209 @@
+.web_container{
+    height: auto;
+    width: 100%;
+    overflow-x:hidden;
+}
+body{
+    margin:0px;
+    background-color: #ffc266; 
+    font-family: 'Merriweather', serif;
+}
+#left_flank{
+    height:auto;
+    width:25%;
+    float: left;
+}
+#right_flank{
+    float: left;
+    background: mintcream;
+    height: auto;
+    width:74.79%;
+    border-left:2px solid black;
+    border-bottom: 2px solid black;
+    
+}
+/*menu */
+#menu_select{
+    width: 100%;
+    height:auto;
+    float:left;
+    background-color: #00b300;
+    
+   
+}
+/*changing list element of menu*/
+#menu_select ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    background-color:black;
+    border-radius:2px;
+    
+    
+}
+ #menu_select ul li{
+    float:left;
+   display:inline-block;
+    margin:10px;
+   
+    
+}
+/*hovering an menu*/
+ #menu_select ul li a{
+     display:block;
+     font-weight:bold;
+    letter-spacing:10px;
+    padding:10px 20px;
+    border-radius:5px;
+    font-variant: small-caps;
+    color: white;
+    text-decoration:none;
+    transition:all .2s;
+    letter-spacing:2px;
+
+
+
+}
+#menu_select ul li a:hover{
+    background: cornsilk;
+    color:black;
+    transition:color ease-in .5s,background ease-out .5s;
+}
+/*submisson field*/
+#button_field{
+    float: right;
+    margin-right:20px;
+    margin-top: 40px;
+    
+    height:30px;
+    background:#00b300;;
+    color:white;
+    border-radius:7px;
+    border-top-left-radius:0;
+    border-bottom-left-radius:0;
+    border:none;
+    
+}
+/*search field*/
+#search_field{
+    float: right;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-top: 40px;
+    height:30px;
+    width:300px;
+    border:none;
+    
+    
+    
+    
+}
+
+/*divison table to insert new data*/
+#insert_data{
+    margin-top: 150px;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 60%;
+    height: auto;
+    
+    float:left;
+}
+/*image logo used in left flank*/
+img{
+    height:100px;
+    width: auto;
+    float:left;
+    margin-left:60px;
+    
+
+}
+#logo{
+    
+    margin-top: 30px;
+    float:left;
+}
+/*left_table person detail*/
+#left_table{
+    margin-top:100px;
+    margin-left: 20px;
+    float:left;
+}
+#search_bar{
+    float: left;
+    width:100%;
+    background-color:#ffc266;
+    padding-bottom:50px;
+}
+#table_no{
+    height: 20px;
+    width: 40px;
+    float:left;
+}
+/*input size decreased*/
+#quantity,#rate,#amount,#total{
+    height: 20px;
+    width: 50px;
+    float:left;
+}
+table{
+    float:left;
+    width:100%;
+}
+form{
+    float:left;
+    width:100%;
+}
+td,th{
+    width:120px;
+    border-top:1px black solid;
+    border-left:1px black solid;
+    border-right:1px black solid;
+    
+}
+.menu tr,.menu th,.menu td{
+    color:white !important;
+    border-color:white !important;
+    border-bottom: white !important;
+    padding:5px;
+}
+tr,td,th{
+    
+    color:black;
+    padding:5px 0px;
+}
+.bott-border{border-bottom:1px solid black;}
+.bott-border td{
+    border-bottom:1px solid black;
+}
+/*input*/
+#insert_data input{
+    float:left;
+    height:40px;
+    
+}
+textarea{
+    float:left;
+    height:40px;
+}
+
+input[type="submit"]{
+    background:transparent;
+    border:1px solid black;
+    padding:10px 20px;
+    float:left;
+}
+#search_menu{
+    float: left;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-top: 40px;
+    height:30px;
+    width:200px;
+    border:none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    
+}
