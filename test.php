@@ -1,5 +1,7 @@
 
 <?php
+//By Ravi Tamang
+        session_start();
         include('print.php');
 ?>
 
@@ -119,6 +121,13 @@
                         
                     </div>
                     <div name="insert_data" id="insert_data">
+                        <h2><?php 
+                        
+                        
+                        echo $_SESSION['username']="Login Successful";
+                        
+                        
+                         ?></h2>
                         <h2 style="padding-left: 200px; font-variant: small-caps;">Accounting Entries</h2>
                         
                                 <form action="test.php" method="POST" autocomplete="off">
